@@ -6,4 +6,12 @@
   <packaging>pom</packaging>
   <name>HCache build</name>
   <description>master build pom for HCache</description>
+  <modules>
+  	<module>
+  		../../../Java/workspace/hosokawa/security/hencryptor
+  	</module>
+  	<module>../../../Java/workspace/HCache/hcache-client</module>
+  	<module>../../../Java/workspace/HCache/hcache-core</module>
+  	<module>../../../Java/workspace/HCache/hcache-service</module>
+  </modules>
 </project>
